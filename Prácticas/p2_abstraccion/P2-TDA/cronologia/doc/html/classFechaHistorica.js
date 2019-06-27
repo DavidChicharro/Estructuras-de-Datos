@@ -1,0 +1,26 @@
+var classFechaHistorica =
+[
+    [ "FechaHistorica", "classFechaHistorica.html#a35baa09e365240e567049a7e33a7c209", null ],
+    [ "FechaHistorica", "classFechaHistorica.html#a144677d663d5f55beb72f10c54891a79", null ],
+    [ "FechaHistorica", "classFechaHistorica.html#a3c5359bfe94991536b8a7b944536cbb0", null ],
+    [ "~FechaHistorica", "classFechaHistorica.html#a634de6e216261ee47721922692d2934f", null ],
+    [ "Aniadir_Acontecimiento", "classFechaHistorica.html#afb6d83dc7b324c4e39a6b903fa431791", null ],
+    [ "Copia", "classFechaHistorica.html#a5fc6581c718406454a69c4c9a0834a60", null ],
+    [ "Destruye", "classFechaHistorica.html#abea5d3b05e3a387e2da5815f0af61acc", null ],
+    [ "Es_Mayor", "classFechaHistorica.html#aae6d478b887ead33a21d9f66a1769f8c", null ],
+    [ "Es_Menor", "classFechaHistorica.html#aa3019af510bf7d363bea6e35ee6a7c3e", null ],
+    [ "Get_Anio", "classFechaHistorica.html#a9b75c85f6f504122caf0caf58301525c", null ],
+    [ "Get_Num_Aconts", "classFechaHistorica.html#a02f40b4cb120656768d804c3670a9b49", null ],
+    [ "Get_Puntero_Acont", "classFechaHistorica.html#aeee84c4887d2f967b6b38826dc2c9a8b", null ],
+    [ "Inicializa", "classFechaHistorica.html#aee62d9872f6b7383d8a530fc5e1ae34e", null ],
+    [ "operator<", "classFechaHistorica.html#a41a402cbf59e33084e9b23f9a5963078", null ],
+    [ "operator=", "classFechaHistorica.html#afd27c64739827c37b4aebb24279a8a03", null ],
+    [ "operator==", "classFechaHistorica.html#ad6c62cd19e6a5b1cd0dc2f877d0eafa8", null ],
+    [ "operator>", "classFechaHistorica.html#adf2ad0e5fcd2050d22beef4229273480", null ],
+    [ "Reserva", "classFechaHistorica.html#a106e17705bc454fc9889afd43e6fe6df", null ],
+    [ "Resize", "classFechaHistorica.html#af1f7a7c4e41e9dc3d17424ca7a0507c0", null ],
+    [ "Cronologia", "classFechaHistorica.html#a093d6c964b7fcfece8a1bef43b5bc9ad", null ],
+    [ "fecha", "classFechaHistorica.html#aab438f6f08e6392bc8c782df42ffeb6d", null ],
+    [ "num_aconts", "classFechaHistorica.html#a8eded18e6b065b88933eff291daeee40", null ],
+    [ "ptr_acont", "classFechaHistorica.html#a165d6ded3d389bf9d2ff3b01368b203f", null ]
+];
