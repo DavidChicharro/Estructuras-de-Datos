@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Racional: Fichero Fuente include/Racional.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Racional
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('Racional_8h_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Racional.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Racional_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef __RACIONAL</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define __RACIONAL</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classRacional.html">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="classRacional.html">Racional</a> {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; <span class="keyword">private</span>:</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classRacional.html#a1a053a6a9d6adee4cfc73b1cb8e3305c">   49</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="classRacional.html#a1a053a6a9d6adee4cfc73b1cb8e3305c">num</a>; </div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classRacional.html#aee8b1719744e807c0498b89b9ff90276">   50</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="classRacional.html#aee8b1719744e807c0498b89b9ff90276">den</a>; </div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; <span class="keyword">public</span>:</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="classRacional.html">Racional</a>();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="classRacional.html">Racional</a>(<span class="keywordtype">int</span> n, <span class="keywordtype">int</span> d);  </div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="comment">// Racional(int n=0, int d=1): num(n),den(d) {}</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <a class="code" href="classRacional.html">Racional</a> (<span class="keyword">const</span> <a class="code" href="classRacional.html">Racional</a>&amp; c);  </div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordtype">int</span> numerador ();</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordtype">int</span> denominador();</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordtype">void</span> asignar(<span class="keywordtype">int</span> n, <span class="keywordtype">int</span> d);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keywordtype">bool</span> comparar(<a class="code" href="classRacional.html">Racional</a> r);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordtype">void</span>  print();</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <a class="code" href="classRacional.html">Racional</a> operator+(<span class="keyword">const</span> <a class="code" href="classRacional.html">Racional</a> &amp; r);</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <span class="keywordtype">void</span> operator+=(<span class="keyword">const</span> <a class="code" href="classRacional.html">Racional</a> &amp;r);</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  </div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keywordtype">bool</span> operator ==(<span class="keyword">const</span> <a class="code" href="classRacional.html">Racional</a> &amp;r);</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="keyword">friend</span> ostream&amp; operator&lt;&lt; (ostream&amp; os, <span class="keyword">const</span> <a class="code" href="classRacional.html">Racional</a>&amp; r);</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="keyword">friend</span> istream&amp; operator&gt;&gt; (istream&amp; is, <a class="code" href="classRacional.html">Racional</a>&amp; r);</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <a class="code" href="classRacional.html">Racional</a>  simplifica();</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment">/************* INCLUIR OTRAS FUNCIONES y OPERADORES *********/</span></div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment">/* Por ejemplo:</span></div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment">   la funcion irreducible que nos convierta un racional r</span></div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment">   en irreducible, ej. 12/4 -&gt; 3/1</span></div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">   la funcion real que devuelva el valor real asociado al racional</span></div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment">   ej, 1/2 -&gt; 0.5</span></div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">   Operador de resta, multiplicacion, division,etc.  </span></div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">*/</span></div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;};</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classRacional_html_aee8b1719744e807c0498b89b9ff90276"><div class="ttname"><a href="classRacional.html#aee8b1719744e807c0498b89b9ff90276">Racional::den</a></div><div class="ttdeci">int den</div><div class="ttdef"><b>Definition:</b> <a href="Racional_8h_source.html#l00050">Racional.h:50</a></div></div>
+<div class="ttc" id="classRacional_html"><div class="ttname"><a href="classRacional.html">Racional</a></div><div class="ttdoc">T.D.A. Racional. </div><div class="ttdef"><b>Definition:</b> <a href="Racional_8h_source.html#l00031">Racional.h:31</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classRacional_html_a1a053a6a9d6adee4cfc73b1cb8e3305c"><div class="ttname"><a href="classRacional.html#a1a053a6a9d6adee4cfc73b1cb8e3305c">Racional::num</a></div><div class="ttdeci">int num</div><div class="ttdef"><b>Definition:</b> <a href="Racional_8h_source.html#l00049">Racional.h:49</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<hr>
+<small>ETS Ingeniería Informática y Telecomunicaciones. Universidad de Granada.
+</small>
